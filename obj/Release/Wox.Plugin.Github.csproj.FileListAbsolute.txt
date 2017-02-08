@@ -1,0 +1,9 @@
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Release\Wox.Plugin.Github.dll.config
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Release\Wox.Plugin.Github.dll
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Release\Wox.Plugin.Github.pdb
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Release\Newtonsoft.Json.dll
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Release\Wox.Plugin.dll
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Release\Newtonsoft.Json.xml
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\obj\Release\Wox.Plugin.Github.dll
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\obj\Release\Wox.Plugin.Github.pdb
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\obj\Release\Wox.Plugin.Github.csprojResolveAssemblyReference.cache

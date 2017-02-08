@@ -1,0 +1,12 @@
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Debug\Wox.Plugin.Github.dll.config
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Debug\Wox.Plugin.Github.dll
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Debug\Wox.Plugin.Github.pdb
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Debug\Newtonsoft.Json.dll
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Debug\Wox.Plugin.dll
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\bin\Debug\Newtonsoft.Json.xml
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\obj\Debug\Wox.Plugin.Github.dll
+c:\users\q6094\documents\visual studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\obj\Debug\Wox.Plugin.Github.pdb
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox\Output\Debug\Plugins\Wox.Plugin.Github\Wox.Plugin.Github.dll.config
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox\Output\Debug\Plugins\Wox.Plugin.Github\Wox.Plugin.Github.dll
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox\Output\Debug\Plugins\Wox.Plugin.Github\Wox.Plugin.Github.pdb
+C:\Users\q6094\Documents\Visual Studio 2017\Projects\Wox.Plugin.Github\Wox.Plugin.Github\obj\Debug\Wox.Plugin.Github.csprojResolveAssemblyReference.cache

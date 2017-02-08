@@ -1,0 +1,12 @@
+﻿{
+  "ID": "095A6AE3A254432EBBD78F05A71D4981",
+  "ActionKeyword": "gt",
+  "Name": "Github",
+  "Description": "Github项目查询",
+  "Author": "Cacivy",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/Wox-launcher/Wox.Plugin.Github",
+  "ExecuteFileName": "Wox.Plugin.Github.dll",
+  "IcoPath": "Images\\github.ico"
+}
