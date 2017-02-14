@@ -35,13 +35,14 @@ namespace Wox.Plugin.Github
 
     public class Main : IPlugin
     {
+        private PluginInitContext context;
         private static readonly string DefaultUserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";
         private const string ApiUrl = "https://api.github.com/search/repositories?sort=stars&order=desc&q=";
         const string ico = "Images\\github.ico";
 
         public void Init(PluginInitContext context)
         {
-            
+            this.context = context;
         }
 
         public List<Result> Query(Query query)
@@ -78,7 +79,12 @@ namespace Wox.Plugin.Github
                             Title = item.full_name,
                             SubTitle = item.description,
                             IcoPath = ico, // item.owner.avatar_url,
-                            Action = this.cmdFun("start " + item.html_url)
+                            Action = (e) =>
+                            {
+                                context.API.HideApp();
+                                System.Diagnostics.Process.Start(item.html_url);
+                                return true;
+                            }
                         });
                     }
                 } else
@@ -93,36 +99,6 @@ namespace Wox.Plugin.Github
             }
 
             return list;
-        }
-
-        private System.Func<ActionContext, bool> cmdFun(string text)
-        {
-            return c =>
-            {
-                this.cmd(text);
-                return false;
-            };
-        }
-
-        private bool cmd(string text)
-        {
-            System.Diagnostics.Process p = new System.Diagnostics.Process();
-            p.StartInfo.FileName = "cmd.exe";
-            p.StartInfo.UseShellExecute = false;    //是否使用操作系统shell启动
-            p.StartInfo.RedirectStandardInput = true;//接受来自调用程序的输入信息
-            p.StartInfo.RedirectStandardOutput = true;//由调用程序获取输出信息
-            p.StartInfo.RedirectStandardError = true;//重定向标准错误输出
-            p.StartInfo.CreateNoWindow = true;//不显示程序窗口
-            p.Start();//启动程序
-
-            p.StandardInput.WriteLine(text);
-
-            p.StandardInput.AutoFlush = true;
-
-            p.WaitForExit();
-            p.Close();
-
-            return true;
         }
 
     }
